@@ -1,12 +1,12 @@
-$primary: #FFA242;
-$secondary: #924CFF;
-$red: #FA3C3C;
-$blue: #1CC7FF;
-$green: #33FF6D;
+$primary: #ffa242;
+$secondary: #924cff;
+$red: #fa3c3c;
+$blue: #1cc7ff;
+$green: #33ff6d;
 $black: #0c1016;
 $grayishWhite: #cacaca;
 
-$bigNoodle: "BigNoodle";
+$bigNoodle: 'BigNoodle';
 
 @font-face {
     font-family: $bigNoodle;
@@ -20,13 +20,13 @@ $bigNoodle: "BigNoodle";
     font-weight: 600;
 }
 
-body, html {
+body,
+html {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $black;
     font-size: 1.2rem;
     font-family: $bigNoodle;
     color: $primary;
@@ -34,6 +34,10 @@ body, html {
     padding: 0;
 }
 
-*{
+html {
+    background-color: $black;
+}
+
+* {
     box-sizing: border-box;
 }
